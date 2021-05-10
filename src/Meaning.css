@@ -1,0 +1,6 @@
+.Meanings h3 {
+  text-transform: capitalize;
+  font-style: italic;
+  font-size: 30px;
+  color: #6fd5d2;
+}
