@@ -6,3 +6,24 @@
 .Dictionary form {
   margin-bottom: 10px;
 }
+
+.Dictionary section {
+  background-color: white;
+  margin: 20px 0;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px #f3c94d;
+}
+
+.Dictionary input {
+  color: #333;
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 3px;
+}
