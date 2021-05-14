@@ -13,4 +13,6 @@ body {
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  color: black;
+  font-size: 15px;
 }

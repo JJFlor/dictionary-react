@@ -5,7 +5,7 @@ import "./Phonetics.css";
 
 export default function Phonetics(props){
     return (
-        <div>
+        <div className="Phonetics">
             <div className="text">
                {props.phonetics.text}
             </div>

@@ -1,8 +1,10 @@
 .Phonetics .text {
-  font-size: 50px;
-  background-color: blueviolet;
+  margin: 15px 0;
+  font-size: 20px;
+  color: blueviolet;
+  font-weight: 450;
 }
 
 .Phonetics .audio {
-  background-color: red;
+  margin: -13px 0;
 }

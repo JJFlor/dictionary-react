@@ -6,20 +6,20 @@ import "./Meaning.css";
 
 export default function Meaning(props){
     return (
-      <div className="Meanings">
+      <div className="Meaning">
           <h3>
-            {props.meaning.partOfSpeech};
+            {props.meaning.partOfSpeech}
           </h3>
           {props.meaning.definitions.map(function(definition,index){
               return(
                <div key={index}>
-                 <p>
-                  <strong>Definition:</strong> {definition.definition}
-                  <br />
-                    <Example example={definition.example}/>
-                  <br />
+                 <div className="definition">
+                   {definition.definition}
+                 </div>
+                 <div className="example">
+                   <Example example={definition.example}/>
+                 </div>
                   <Synonyms synonyms={definition.synonyms}/> 
-                 </p>   
                </div>
               );
           })}
