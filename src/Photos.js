@@ -1,4 +1,5 @@
 import React from "react";
+import Loader from "react-loader-spinner";
 import "./Photos.css";
 
 export default function Photos(props){
@@ -19,7 +20,14 @@ export default function Photos(props){
              </section>
          );
     } else {
-        return null;
+        return (
+            <Loader
+              type="ThreeDots"
+              color="#9771F3"
+              height={80}
+              width={80}
+              position="centered"
+            />
+        );
     }
-   
 }
