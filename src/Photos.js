@@ -21,13 +21,15 @@ export default function Photos(props){
          );
     } else {
         return (
-            <Loader
-              type="ThreeDots"
-              color="#9771F3"
-              height={80}
-              width={80}
-              position="centered"
-            />
+              <Loader
+                type="ThreeDots"
+                color="#9771F3"
+                height={80}
+                width={80}
+                className="Loader"
+               />
         );
     }
 }
+
+

@@ -22,7 +22,9 @@ export default function Dictionary(props){
     function search(){
         //documentation: https://dictionaryapi.dev/
         let apiUrl =`https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyWord}`;
-        axios.get(apiUrl).then(handleDictionaryResponse);
+         axios.get(apiUrl).then(handleDictionaryResponse).catch((error) => {
+         alert("Ops! Sorry, word not found.Try again!😃");
+         });
 
         //documentation: https://www.pexels.com/api/documentation/
         const pexelsApiKey = "563492ad6f917000010000012c9b635b7a1d4cff8fa2a7b8a4204d0d";
@@ -39,7 +41,6 @@ export default function Dictionary(props){
     function handleWordChange(event){
          event.preventDefault();
          setKeyWord(event.target.value);
-
     }
 
     function load(){
