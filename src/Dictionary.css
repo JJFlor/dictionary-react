@@ -36,3 +36,8 @@
   font-style: italic;
   color: #973cca;
 }
+
+.Loader {
+  display: flex;
+  justify-content: center;
+}
