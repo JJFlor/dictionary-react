@@ -3,3 +3,9 @@
   font-weight: bolder;
   color: blueviolet;
 }
+
+@media (min-width: 576px) {
+  .Results h2 {
+    font-size: 70px;
+  }
+}

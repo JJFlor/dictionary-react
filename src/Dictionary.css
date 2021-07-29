@@ -41,3 +41,18 @@
   display: flex;
   justify-content: center;
 }
+
+@media (min-width: 576px) {
+  .Dictionary section {
+    box-shadow: 5px 5px 5px #f3c94d;
+  }
+  .Dictionary form {
+    font-size: 41px;
+  }
+  .Dictionary .opening {
+    font-size: 45px;
+  }
+  .Dictionary .hint {
+    font-size: 29px;
+  }
+}

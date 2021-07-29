@@ -21,3 +21,12 @@ body {
   color: black;
   font-size: 15px;
 }
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 845px;
+  }
+  .App-footer {
+    font-size: 28px;
+  }
+}

@@ -8,3 +8,9 @@
 .Phonetics .audio {
   margin: -13px 0;
 }
+
+@media (min-width: 576px) {
+  .Phonetics .text {
+    font-size: 40px;
+  }
+}
