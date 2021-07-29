@@ -13,12 +13,12 @@ export default function App() {
          </main>
         </header>
         <footer className="App-footer">
-            This site is <a href="https://github.com/JJFlor/dictionary-react" rel="noreferrer" target="_blank">
+            This site is <a href="https://github.com/JJFlor/dictionary-react" alt="Julia's GitHub Repository" rel="noreferrer" target="_blank">
               Open-source
-            </a> and was coded by <a href="https://www.linkedin.com/in/juliajaile/" rel="noreferrer" target="_blank">
+            </a> and was coded by <a href="https://www.linkedin.com/in/juliajaile/" alt="Julia's Linkedin" rel="noreferrer" target="_blank">
               Júlia Jaile Flores
             </a>
-            , hosted on <a href="https://dicitionary-react-app-9077f4.netlify.app" rel="noreferrer" target="_blank">Netlify</a> 👩🏽‍💻  
+            , hosted on <a href="https://dicitionary-react-app-9077f4.netlify.app" alt="Julia's Netlify account" rel="noreferrer" target="_blank">Netlify</a> 👩🏽‍💻  
         </footer>
       </div>
     </div>
