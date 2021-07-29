@@ -1,11 +1,11 @@
-.Results h2 {
+.Results h1 {
   font-size: 45px;
   font-weight: bolder;
   color: blueviolet;
 }
 
 @media (min-width: 576px) {
-  .Results h2 {
+  .Results h1 {
     font-size: 70px;
   }
 }

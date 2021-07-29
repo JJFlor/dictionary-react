@@ -1,4 +1,4 @@
-.Meaning h3 {
+.Meaning h2 {
   font-size: 30px;
   line-height: 1.5;
   font-weight: 650;
@@ -22,7 +22,7 @@
 }
 
 @media (min-width: 576px) {
-  .Meaning h3 {
+  .Meaning h2 {
     font-size: 50px;
   }
   .Meaning .definition {
